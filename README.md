@@ -18,9 +18,7 @@ This study investigates the use of **speech-based methods** to predict **depress
 
 **Preprocessing techniques** such as **noise reduction** and **segmentation** ensure **data quality** and **consistency**. **Machine learning models**, particularly **XGBoost**, achieve superior performance with a **Root Mean Squared Error (RMSE)** of **2.93**. **Deep learning models**, including **EfficientNet** and **ResNet**, achieve RMSE values of **6.92** and **6.93**, respectively. However, these models show limited ability to predict **extreme scores**.
 
-The **custom Convolutional Neural Network (CNN) architecture** developed in this study offers **broader prediction coverage**. Despite this, the model records a higher RMSE of **7.77**, highlighting challenges in capturing **complex spectrogram features**.
-
-Analysing **prediction distributions** identifies the **strengths** of the models and areas requiring **improvement**, particularly in predicting **extreme PHQ-8 scores**.
+The **custom Convolutional Neural Network architecture** developed in this study offers **broader prediction coverage**. Despite this, the model records a higher RMSE of **7.77**, highlighting challenges in capturing **complex spectrogram features**. Analysing **prediction distributions** identifies the **strengths** of the models and areas requiring **improvement**, particularly in predicting **extreme PHQ-8 scores**.
 
 
 
