@@ -11,14 +11,32 @@
 - <b>first_notebook.ipynb:</b> Beginning narrative documentation of analysis in jupyter notebook up through the data cleaning stages
 - <b>first_notebook.ipynb:</b> Beginning narrative documentation of analysis in jupyter notebook up through the data cleaning stages
 - <b>first_notebook.ipynb:</b> Beginning narrative documentation of analysis in jupyter notebook up through the data cleaning stages
+  
 
 ## Abstract
 
-This study investigates the use of **speech-based methods** to predict **depression severity**, comparing the performance of **machine learning** and **deep learning models** using the **DAIC-WOZ dataset**. It evaluates the predictive accuracy of models trained on **OpenSMILE-extracted features**. These include **prosodic**, **formant**, and **spectral characteristics**, alongside **deep features** derived from **spectrograms**.
+- This study explores **speech-based methods** to predict **depression severity** using the **DAIC-WOZ dataset**.  
+- It compares the performance of **machine learning** and **deep learning models**.  
+- Models are trained on **OpenSMILE-extracted features**, including **prosodic**, **formant**, and **spectral characteristics**, as well as **deep features** from **spectrograms**.  
+- **Preprocessing techniques** like **noise reduction** and **segmentation** are applied to ensure **data quality** and **consistency**.  
+- **Machine learning models**, especially **XGBoost**, perform best with an **RMSE of 2.93**.  
+- **Deep learning models**, such as **EfficientNet** and **ResNet**, yield **RMSEs of 6.92** and **6.93**, but struggle to predict **extreme scores**.  
+- A **custom CNN architecture** provides **broader prediction coverage** but has a higher **RMSE of 7.77**, showing difficulty in modeling **complex spectrogram features**.  
+- **Prediction distribution analysis** reveals both the **strengths** and **limitations** of each model, particularly for **extreme PHQ-8 scores**.
 
-**Preprocessing techniques** such as **noise reduction** and **segmentation** ensure **data quality** and **consistency**. **Machine learning models**, particularly **XGBoost**, achieve superior performance with a **Root Mean Squared Error (RMSE)** of **2.93**. **Deep learning models**, including **EfficientNet** and **ResNet**, achieve RMSE values of **6.92** and **6.93**, respectively. However, these models show limited ability to predict **extreme scores**.
 
-The **custom Convolutional Neural Network architecture** developed in this study offers **broader prediction coverage**. Despite this, the model records a higher RMSE of **7.77**, highlighting challenges in capturing **complex spectrogram features**. Analysing **prediction distributions** identifies the **strengths** of the models and areas requiring **improvement**, particularly in predicting **extreme PHQ-8 scores**.
+### 1.1 Background and Context
+
+- **Clinical depression** is a widespread disorder marked by sadness, fatigue, and loss of interest, which affects daily life.  
+- If **left untreated**, it can lead to serious outcomes like **self-harm** and **suicide**.  
+- **Early detection** is essential but challenging due to varying symptoms and the absence of a clear clinical definition.  
+- **Traditional diagnosis methods** rely on subjective self-reports and clinician observations, which can be **inconsistent** and **biased**.  
+- A lack of trained professionals and resources highlights the need for **automated, scalable solutions**.  
+- **Voice** has emerged as a promising tool—it's **non-invasive**, **cost-effective**, and supports **remote monitoring**.  
+- Handcrafted **vocal features** like **pitch**, **energy**, and **formants** have shown success in machine learning but can miss subtle cues and introduce **human bias**.  
+- **Deep learning models** learn directly from raw audio, capturing complex structures and reducing reliance on manual feature selection.  
+- Prior studies are limited and often lack **comprehensive evaluation** and **explainability** of model predictions.  
+- This study aims to **compare machine learning and deep learning approaches**, focusing on both **accuracy** and **explainability** for depression detection.
 
 
 
