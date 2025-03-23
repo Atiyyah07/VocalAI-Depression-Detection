@@ -25,7 +25,7 @@
 - **Prediction distribution analysis** reveals both the **strengths** and **limitations** of each model, particularly for **extreme PHQ-8 scores**.
 
 
-### 1.1 Background and Context
+## Background and Context
 
 - **Clinical depression** is a widespread disorder marked by sadness, fatigue, and loss of interest, which affects daily life.  
 - If **left untreated**, it can lead to serious outcomes like **self-harm** and **suicide**.  
