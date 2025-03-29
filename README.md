@@ -23,11 +23,7 @@
 - **Deep learning models**, such as **EfficientNet** and **ResNet**, yield **RMSEs of 6.92** and **6.93**, but struggle to predict **extreme scores**.  
 - A **custom CNN architecture** provides **broader prediction coverage** but has a higher **RMSE of 7.77**, showing difficulty in modeling **complex spectrogram features**.  
 - **Prediction distribution analysis** reveals both the **strengths** and **limitations** of each model, particularly for **extreme PHQ-8 scores**.
-
-  ![image](https://github.com/user-attachments/assets/b3288e42-381a-405b-8278-7820350e82e4)
-
   
-
 ## Background and Context
 
 - **Clinical depression** is a widespread disorder marked by sadness, fatigue, and loss of interest, which affects daily life.  
@@ -41,6 +37,8 @@
 - Prior studies are limited and often lack **comprehensive evaluation** and **explainability** of model predictions.  
 - This study aims to **compare machine learning and deep learning approaches**, focusing on both **accuracy** and **explainability** for depression detection.
 
+
+  ![image](https://github.com/user-attachments/assets/b3288e42-381a-405b-8278-7820350e82e4)
 
 
 
