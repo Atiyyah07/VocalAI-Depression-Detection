@@ -2,6 +2,8 @@
 
 **Author**: Atiyyah Limalia
 
+![image](https://github.com/user-attachments/assets/91c7f9da-0fa3-4256-857a-f14e089fc4b5)
+
 
 ## Repository Structure
 
