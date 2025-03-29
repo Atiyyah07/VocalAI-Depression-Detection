@@ -12,9 +12,6 @@
 - <b>first_notebook.ipynb:</b> Beginning narrative documentation of analysis in jupyter notebook up through the data cleaning stages
 - <b>first_notebook.ipynb:</b> Beginning narrative documentation of analysis in jupyter notebook up through the data cleaning stages
 
-  ![image](https://github.com/user-attachments/assets/91c7f9da-0fa3-4256-857a-f14e089fc4b5)
-  
-
 
 ## Abstract
 
@@ -26,6 +23,9 @@
 - **Deep learning models**, such as **EfficientNet** and **ResNet**, yield **RMSEs of 6.92** and **6.93**, but struggle to predict **extreme scores**.  
 - A **custom CNN architecture** provides **broader prediction coverage** but has a higher **RMSE of 7.77**, showing difficulty in modeling **complex spectrogram features**.  
 - **Prediction distribution analysis** reveals both the **strengths** and **limitations** of each model, particularly for **extreme PHQ-8 scores**.
+
+  ![image](https://github.com/user-attachments/assets/b3288e42-381a-405b-8278-7820350e82e4)
+
   
 
 ## Background and Context
